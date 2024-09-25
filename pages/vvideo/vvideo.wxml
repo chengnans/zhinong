@@ -1,0 +1,4 @@
+<h4 class="h4">农田实时监测</h4>
+<view class="video-container">
+  <video id="myVideo" src="{{videoSrc}}" objectFit="contain" controls></video>
+</view>

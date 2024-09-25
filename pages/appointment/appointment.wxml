@@ -1,0 +1,29 @@
+<!-- pages/appointment/appointment.wxml -->  
+<view class="container">  
+  <view class="title">预约任务</view>  
+  <view class="form-item">  
+    <text>日期:</text>  
+    <picker mode="date" value="{{date}}" start="2023-01-01" end="2030-12-31" bindchange="bindDateChange">  
+      <view class="picker">{{date}}</view>  
+    </picker>  
+  </view>  
+  <view class="form-item">  
+    <text>时间:</text>  
+    <picker mode="time" value="{{time}}" start="09:00" end="21:00" bindchange="bindTimeChange">  
+      <view class="picker">{{time}}</view>  
+    </picker>  
+  </view>  
+  <view class="form-item">  
+    <text>预约组件:</text>  
+    <picker mode="selector" range="{{components}}" range-key="name" bindchange="bindComponentChange" value="{{componentIndex}}">  
+      <view class="picker">{{components[componentIndex].name}}</view>  
+    </picker>  
+  </view>  
+    
+  <view class="form-item">  
+    <text>关</text>  
+    <switch checked="{{isOptionA}}" bindchange="bindOptionChange"/>  
+    <text>开</text>  
+  </view>  
+  <button bindtap="submitAppointment">提交预约</button>  
+</view>

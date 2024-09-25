@@ -1,0 +1,12 @@
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600rpx; /* 或者根据实际情况调整 */
+}
+
+#myVideo {
+  width: 100%; /* 视频宽度 */
+  height: 100%; /* 视频高度 */
+}

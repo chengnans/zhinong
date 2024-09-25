@@ -1,0 +1,24 @@
+<!--pages/mysellect/mysellect.wxml-->
+<view class="container">
+  <!-- 头部 -->
+  <view class="tab">
+    <view class="tab_item" wx:for="{{tab}}"  wx:key="id" bindtap="changetab" data-index="{{index}}">{{item.name}}</view> 
+  </view>
+ 
+
+  <!-- 内容 -->
+  <view class="content_item" style="display: {{active==0?'block':'none'}};">
+    <view class="h2">
+    简介
+    </view>
+    <view class="article">
+      “智农”——基于STM32的物联网数据传输终端与管理系统
+    </view>
+  </view>
+  <view class="content_item" style="display: {{active==1?'block':'none'}};">
+    <view class="h2">
+        开发人员
+    </view>
+    <text> chengnan</text>
+  </view>
+</view>

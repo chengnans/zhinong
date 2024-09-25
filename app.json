@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/log/log",
+    "pages/my/my",
+    "pages/mysellect/mysellect",
+    "pages/myfoot/myfoot",
+    "pages/appointment/appointment",
+    "pages/vvideo/vvideo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#007aec",
+    "navigationBarTitleText": "智农",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#d43c33",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/picture/shouye.png",
+        "selectedIconPath": "/picture/shouye1.png"
+      },
+      {
+        "pagePath": "pages/appointment/appointment",
+        "text": "预约",
+        "iconPath": "/picture/预约.png",
+        "selectedIconPath": "/picture/预约1.png"
+      },
+      {
+        "pagePath": "pages/vvideo/vvideo",
+        "text": "实时视频",
+        "iconPath": "/picture/监控.png",
+        "selectedIconPath": "/picture/监控1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/picture/日志.png",
+        "selectedIconPath": "/picture/日志1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

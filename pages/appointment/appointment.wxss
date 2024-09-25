@@ -1,0 +1,25 @@
+/* pages/appointment/appointment.wxss */  
+.container {  
+  padding: 20px;  
+}  
+  
+.title {  
+  font-size: 18px;  
+  font-weight: bold;  
+  margin-bottom: 10px;  
+}  
+  
+.form-item {  
+  margin-bottom: 15px;  
+}  
+  
+.form-item text {  
+  display: inline-block;  
+  width: 80px;  
+}  
+  
+.picker {  
+  border: 1px solid #ccc;  
+  padding: 5px;  
+  border-radius: 5px;  
+}
